@@ -1,0 +1,172 @@
+#-------------------------------
+# Site Settings
+title: Joanna Sujin Yoo
+logo: "/images/logo.svg" # You can add own logo. For example '/images/logo.png'.
+logo_dark: "/images/logo-dark.svg"
+description: Joanna Sujin Yoo's Website
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Coding'
+      url: '/projects/'
+    - title: 'Fashion'
+      url: '/blog/'
+    - title: 'Resume/CV'
+      url: '/about/'
+    # - title: 'Elements'
+    #   url: '/elements/'
+
+
+# Call to action button
+cta_button:
+  enable: true
+  cta_button_link: "/contact/"
+  cta_button_text: Say Hello!
+
+
+#-------------------------------
+# Author Settings
+author:
+  author_intro: Hey, I’m Joanna (Sujin) Yoo
+  author_name: Joanna (Sujin) Yoo
+  author_role: Apparel Technical Designer & Software Engineer
+  author_avatar: /images/01.jpg
+
+
+#-------------------------------
+# Sidebar Section Settings
+sidebar:
+  sidebar_title: Every journey <em>begins</em> <em>with a</em> <em>single step</em>. # You can add an 'em' element to highlight text.
+  sidebar_description: >
+    I'm currently a master's student at Cornell University, advised by Dr. Fatma Baytar (Apparel Design), with Dr. Abe Davis (HCI) as my minor committee advisor. 
+    My current research interests focus on the HCI applications of computer graphics and vision in the apparel industry. I bring a decade of industry experience 
+    as a technical designer and fashion designer, which enriches my understanding of the practical challenges and solutions within the apparel industry. In my free time, I run a sewing blog at <a href="http://www.joannablumstudio.com">joannablumstudio.com</a>, enjoy reading classic literature 
+    (Oscar Wilde is my favorite author!), playing tennis, baking, and spending time with my very cute furry cat, Uni, who just turned nine and even knows how to do tricks!
+
+# Social Links
+social:
+- {icon: "fa-brands fa-linkedin", name: "Linkedin", link: "https://www.linkedin.com/in/joannasujinyoo/"}
+- {icon: "fa-brands fa-etsy", name: "Etsy", link: "https://www.joannablumstudio.etsy.com"}
+- {icon: "fa-solid fa-palette", name: "Blog", link: "http://www.joannablumstudio.com"}
+- {icon: "fa-solid fa-book", name: "Goodread", link: "https://www.goodreads.com/jojosalad"}
+
+# Example of adding a new link to the footer - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Projects Settings
+projects:
+  enable: true
+  projects_title: Coding <em> Projects</em> # You can add an 'em' element to highlight text.
+
+
+# #-------------------------------
+# # Testimonials Settings
+# testimonials:
+#   enable: false
+#   testimonials_title: Trusted by <em>Professionals</em> # You can add an 'em' element to highlight text.
+#   testimonials_description: Join our community of creative professionals where you can develop your talents and reach new heights in design.
+
+# testimonial-items:
+#   - name: Amelia Jones
+#     image: "/images/client-1.jpg"
+#     designation : Network Engineer
+#     content : This product designer is an expert in his field. His ability to understand the needs of clients and create designs that satisfy them is astounding.
+
+#   - name: Ethan Robinson
+#     image: "/images/client-2.jpg"
+#     designation : Blockchain Developer
+#     content : Kevin is a true visionary in the field of product design. His ability to think outside the box and push boundaries is what sets him apart from the rest.
+
+#   - name: Matthew Garcia
+#     image: "/images/client-3.jpg"
+#     designation : IT Support Specialist
+#     content : I cannot recommend this designer highly enough. Their designs are not only visually stunning but also highly functional, making them perfect for our needs.
+
+
+#-------------------------------
+# Blog Section Settings
+blog:
+  enable: true
+  blog_title: Fashion <em>Projects</em> # You can add an 'em' element to highlight text.
+  blog_description: Please note that some of my most recent work cannot be shared publicly due to confidentiality agreements and proprietary considerations.
+
+#-------------------------------
+# Faq (Frequently asked questions) Settings
+faq:
+  enable: true
+  faq_title: Get to Know <em>Me</em>. # You can add an 'em' element to highlight text.
+  faq_description: Here are some fun and quirky tidbits about me!
+
+faq_items:
+  - title: What’s your go-to sewing or design tool?
+    description: drum roll... my trusty seam ripper! Every designer’s best friend (and sometimes worst enemy)!
+
+  - title: What’s your all-time favorite dessert?
+    description: Panna Cotta 🍮
+
+  - title: What’s your favorite TV show?
+    description: Friends, Gilmore Girls, How I Met Your Mother 😉
+
+  - title: What’s your favorite book?
+    description: Oh boy, this one's HARD. I think for now, it’s The Picture of Dorian Gray!
+
+  - title: What’s a random fun fact about you?
+    description: I used to raise a pet iguana! (for about a decade) 🦎 It was quite the adventure.
+
+  - title: Random fun fact encore? 
+    description: I was born in Karlsruhe, Germany! "Ich spreche kein Deutsch." 💀
+
+
+# #-------------------------------
+# # Gallery Settings
+# gallery:
+#   enable: true
+#   gallery_title: A Visual Journey Through <em>My World</em> # You can add an 'em' element to highlight text.
+#   gallery_description: Step into my visual world where each image tells a story. From the bustling streets of urban landscapes to the serene beauty of nature, explore the moments that inspire and define my journey.
+#   gallery_caption:
+
+# gallery_images:
+#   - alt: 'Together'
+#     url: '/images/100.jpg'
+#   - alt: 'Lifestyle'
+#     url: '/images/101.jpg'
+#   - alt: 'Friends'
+#     url: '/images/102.jpg'
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp:
+  enable: false
+  mailchimp_title: Subscribe to Our <em>Newsletter</em> # You can add an 'em' element to highlight text.
+  mailchimp_description: Join now and never miss out on our stuff again. Because you are worth it!
+  mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_input_text: Your email address
+  mailchimp_button_text: Subscribe
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: sujinyoofidm@gmail.com # Add your form_id
+  description: 
+# NOTE
+# Baleon theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id
