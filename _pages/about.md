@@ -89,7 +89,7 @@ permalink: /about/
 ***
 ## Honors and Awards
 * **Alan D. Mathios Research and Service Grant** (2024)
-* **President's Volunteer Service Awardr** (2023)
+* **President's Volunteer Service Award** (2023)
 
 ***
 ## Certification and Licensure
